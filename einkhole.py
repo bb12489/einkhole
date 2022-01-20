@@ -6,7 +6,7 @@
 import sys
 import os
 import json
-import urllib2
+import urllib.request as urllib2
 import yaml
 
 # Grab config from config.yml (make sure you edit config.yml with your specifics)
